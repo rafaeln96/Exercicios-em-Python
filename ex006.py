@@ -1,0 +1,6 @@
+a = float(input('Informe um número: '))
+m1 = float(a*2)
+m2 = float(a*3)
+d1 = float(a**(1/2))
+print('O número informado é {} o seu dobro é {}' .format(a, m1), end=' ')
+print('o seu triplo é {} e a sua raiz quadrada é {:.2f}' .format(m2, d1))

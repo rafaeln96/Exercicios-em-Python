@@ -1,0 +1,10 @@
+la = float(input('Informe a largura da parede em metros: '))
+al = float(input('Informe a altura da parede em metros: '))
+a = la * al
+print('-' * 45)
+print('A área da parede é de: {}' 'm²' .format(a))
+print('-' * 45)
+print('Um litro de tinta contempla uma pintura de 2m²')
+print('-' * 45)
+print('Para pintar a parede informada, será necessário utilizar {:.2f}' 'L de tinta!' .format(a/2))
+print('-' * 45)
